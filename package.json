@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/Oguzzsancaktar/chrome-extention/issues"
   },
-  "homepage": "https://github.com/Oguzzsancaktar/chrome-extention#readme"
+  "homepage": "https://github.com/Oguzzsancaktar/chrome-extention#readme",
+  "dependencies": {
+    "@types/chrome": "^0.0.179",
+    "types": "^0.1.1"
+  }
 }
