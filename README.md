@@ -4,3 +4,7 @@
 - is an object 
 - manifest.json tells the borewser you can open it.
 - name, version, description, manifest_version, look up other attributes on documentation
+
+## Background Scripts 
+- Events triggers background scripts,
+- Navigating tabs, closing windows
