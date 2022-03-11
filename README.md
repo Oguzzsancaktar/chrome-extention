@@ -48,4 +48,4 @@
 - Create _loacle folder in src folder
 - in _locale folder create language folders
 - in string __MSG_attributeName__
-- chrome.i18n.getmessage(attributename)
+- chrome.i18n.getmessage(attributename) 
