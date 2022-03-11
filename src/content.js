@@ -1,7 +1,7 @@
 window.onload = () => {
   const button = document.createElement("button");
   button.id = "darkModeButton";
-  button.textContent = "Do it dark!";
+  button.textContent = chrome.i18n.getMessage("enableDarkModeText");
 
   const input = document.createElement("input");
   input.type = "checkbox";

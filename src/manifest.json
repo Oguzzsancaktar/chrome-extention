@@ -1,7 +1,8 @@
 {
-  "name": "fundamentals extention",
+  "name": "__MSG_appName__",
   "version": "1.0.0",
-  "description": "fundamentals extention",
+  "description": "__MSG_appDescription__",
+  "default_locale":"en",
   "manifest_version": 2,
   "background": {
     "scripts": ["background.js", "backgroundMessaging.js"],
@@ -15,7 +16,7 @@
       "run_at": "document_end"
     }
   ],
-  "permissions": ["bookmarks", "storage"],
+  "permissions": ["bookmarks", "storage", "tabs", "https://api.github.com/"],
   "icons": {
     "16": "icon.png",
     "48": "icon.png",

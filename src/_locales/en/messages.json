@@ -1,0 +1,11 @@
+{
+  "appName": {
+    "message": "App Name EN"
+  },
+  "appDescription": {
+    "message": "App Description EN"
+  },
+  "enableDarkModeText": {
+    "message": "Enable Dark Mode EN"
+  }
+}
