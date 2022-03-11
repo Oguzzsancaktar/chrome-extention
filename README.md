@@ -25,3 +25,27 @@
 ### Icons
 ### Browser Action
 - Extention hover (default_title)
+
+
+## Chrome Storage
+- Have async operations like read and write 
+- Firtsly me must add permision for using storage
+- Storage => local storage (another browser) + sync storage (another device)
+- chrome.storage.(sync/local).set()
+- chrome.storage.(sync/local).get([key])
+
+## Script Communication (message passing)
+- one time request
+- connections 
+- foreground (content) => chrome.runtime.sendMessage({}, callback for response)
+- background => chrome.runtime.onMessage.addListener((req,sender,res))
+
+## Cross Origin Rexuests (XHR)
+- Create instance from XHttpRequest 
+- and use onreadystatechange from instance
+
+## Internationalization
+- Create _loacle folder in src folder
+- in _locale folder create language folders
+- in string __MSG_attributeName__
+- chrome.i18n.getmessage(attributename)
